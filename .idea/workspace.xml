@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="game" targetName="ge211" />
+      <config projectName="game" targetName="catch" />
+      <config projectName="game" targetName="fireworks" />
+      <config projectName="game" targetName="model_test" />
+      <config projectName="game" targetName="game" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e0f73fe-3920-4a90-81dc-370dc9567d68" name="Changes" comment="everything sucks">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_config.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game_config.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ship.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ship.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.hxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model_test.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/test/model_test.cxx" afterDir="false" />
+    </list>
+    <list id="2ff16796-700a-456c-a0d0-21fb82ea0d8e" name="Changes by hibar" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IAN3HvJxNccbrFOCydCG0ijKeJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ctest.advertisement.all.test.configuration.is.created&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/amiin/Desktop/211 Final Project&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.game">
+    <configuration name="catch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game" TARGET_NAME="catch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fireworks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game" TARGET_NAME="fireworks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game" RUN_TARGET_NAME="fireworks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="game" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game" TARGET_NAME="game" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game" RUN_TARGET_NAME="game">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ge211" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game" TARGET_NAME="ge211" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Catch.All in model_test" />
+      <item itemvalue="CMake Application.game" />
+      <item itemvalue="CMake Application.catch" />
+      <item itemvalue="CMake Application.fireworks" />
+      <item itemvalue="CMake Application.ge211" />
+      <item itemvalue="CTest Application.All CTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e0f73fe-3920-4a90-81dc-370dc9567d68" name="Changes" comment="" />
+      <created>1669620228101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669620228101</updated>
+      <workItem from="1669620229606" duration="45000" />
+      <workItem from="1669620299066" duration="71000" />
+      <workItem from="1669620415967" duration="13000" />
+      <workItem from="1669620503472" duration="619000" />
+      <workItem from="1669621172682" duration="410000" />
+      <workItem from="1669621633320" duration="63000" />
+      <workItem from="1669621712813" duration="26000" />
+      <workItem from="1669621751411" duration="544000" />
+      <workItem from="1669622324102" duration="1167000" />
+      <workItem from="1669769625157" duration="8703000" />
+      <workItem from="1669799391049" duration="288000" />
+      <workItem from="1669800301625" duration="4116000" />
+      <workItem from="1669804497753" duration="2059000" />
+      <workItem from="1669806746410" duration="65000" />
+      <workItem from="1669806961278" duration="21000" />
+      <workItem from="1669807235360" duration="103000" />
+      <workItem from="1669807897959" duration="1000" />
+      <workItem from="1669809363531" duration="1561000" />
+      <workItem from="1669821480418" duration="437000" />
+      <workItem from="1669840474580" duration="91000" />
+      <workItem from="1669840568146" duration="20000" />
+      <workItem from="1669840716227" duration="750000" />
+      <workItem from="1669841660997" duration="500000" />
+      <workItem from="1669842417468" duration="4001000" />
+      <workItem from="1669852365293" duration="764000" />
+      <workItem from="1669853954495" duration="6737000" />
+      <workItem from="1669864204430" duration="4206000" />
+      <workItem from="1669872956928" duration="16435000" />
+      <workItem from="1669916091450" duration="180000" />
+      <workItem from="1669916898833" duration="12043000" />
+      <workItem from="1669929017380" duration="932000" />
+      <workItem from="1669930516187" duration="14000" />
+      <workItem from="1669930579354" duration="29777000" />
+      <workItem from="1669984255793" duration="7423000" />
+      <workItem from="1670026430605" duration="11507000" />
+      <workItem from="1670038025948" duration="7300000" />
+      <workItem from="1670138333526" duration="1797000" />
+      <workItem from="1670356569756" duration="9284000" />
+    </task>
+    <task id="LOCAL-00001" summary="everything sucks">
+      <created>1669935239458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669935239458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="everything sucks" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything sucks" />
+  </component>
+</project>

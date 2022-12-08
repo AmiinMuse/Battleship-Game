@@ -1,0 +1,27 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/amiin/Desktop/211 Final Project/src/board.cxx" "CMakeFiles/game.dir/src/board.cxx.o" "gcc" "CMakeFiles/game.dir/src/board.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/controller.cxx" "CMakeFiles/game.dir/src/controller.cxx.o" "gcc" "CMakeFiles/game.dir/src/controller.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/game_config.cxx" "CMakeFiles/game.dir/src/game_config.cxx.o" "gcc" "CMakeFiles/game.dir/src/game_config.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/main.cxx" "CMakeFiles/game.dir/src/main.cxx.o" "gcc" "CMakeFiles/game.dir/src/main.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/model.cxx" "CMakeFiles/game.dir/src/model.cxx.o" "gcc" "CMakeFiles/game.dir/src/model.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/player.cxx" "CMakeFiles/game.dir/src/player.cxx.o" "gcc" "CMakeFiles/game.dir/src/player.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/ship.cxx" "CMakeFiles/game.dir/src/ship.cxx.o" "gcc" "CMakeFiles/game.dir/src/ship.cxx.o.d"
+  "/Users/amiin/Desktop/211 Final Project/src/view.cxx" "CMakeFiles/game.dir/src/view.cxx.o" "gcc" "CMakeFiles/game.dir/src/view.cxx.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/amiin/Desktop/211 Final Project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
