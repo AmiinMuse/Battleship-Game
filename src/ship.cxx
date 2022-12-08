@@ -9,15 +9,3 @@ Ship::get_dims()
 {
     return dims;
 }
-
-std::vector<std::vector<int>>
-Ship::get_locations()
-{
-    return locations;
-}
-
-void
-Ship::set_locations(std::vector<std::vector<int>> new_locations)
-{
-    locations = new_locations;
-}

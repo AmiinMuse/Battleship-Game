@@ -11,74 +11,75 @@
 class Model
 {
 
-    public:
+public:
 
-        Model();
+    Model();
 
-        Game_config config_;
+    Game_config config_;
 
-        using Position = ge211::Posn<int>;
-        using Board_pos = Board::Position;
+    using Position = ge211::Posn<int>;
 
+    enum Players {
+        P1,
+        P2,
+        neither
+    };
 
-        enum Players {
-            P1,
-            P2,
-            neither
-        };
+    Board get_player_board(Players player) const;
 
+    bool check_active() const {
+        return active_;
+    }
 
-        Board get_player_board(Players player) const;
+    bool is_game_over() const {
+        return game_over_;
+    }
 
-        bool check_active() const {
-            return active_;
-        }
+    bool board_placement() const{
+        return board_placement_;
+    }
 
-        bool is_game_over() const {
-            return game_over_;
-        }
+    Players board_placement_player() const{
+        return board_placement_player_;
+    }
 
-        bool board_placement() const{
-            return board_placement_;
-        }
+    Players get_turn() {
+        return turn_;
+    }
 
-        Players board_placement_player() const{
-            return board_placement_player_;
-        }
+    void start_placement(Players player);
 
-        Players get_turn() {
-            return turn_;
-        }
-        // ge211::Posn<int> screen_to_board(Position pos)
-        // {
-        //     ret
-        // }
+    void grid_clicked(Position position);
 
-        void start_placement(Players player);
+    void stop_placement();
 
-        bool hit_ship(Players player, Position Pos);
+    void start_game();
 
+    void shuffle_board();
 
+    void check_game_over();
+    void force_game_over(Players winner);
 
-        void do_something_please();
+    std::string get_winner() const;
+    float get_winner_score() const;
 
-        void stop_placement();
+    void change_turn();
 
-        void start_game();
+    Player get_player1() const;
+    Player get_player2() const;
 
-        void shuffle_board();
-
-        // void advance_turn();
-        // void set_game_over(Players player);
-        //Players other_player(Players player);
+    // For testing
+    void grid_clicked_board(Position position);
 
 private:
-        Players turn_;
-        bool active_;
-        bool game_over_;
-        bool board_placement_;
-        Players board_placement_player_;
+    bool active_;
+    bool game_over_;
+    bool board_placement_;
 
-        Player player1;
-        Player player2;
+    Players turn_;
+    Players board_placement_player_;
+    Players winner_;
+
+    Player player1;
+    Player player2;
 };

@@ -1,29 +1,25 @@
 #pragma once
 
 #include "board.hxx"
-#include "game_config.hxx"
 
 struct Player {
-    public:
-        Player();
-        using Dimensions = ge211::Dims<int>;
-        using Position = ge211::Posn<int>;
+    using Dimensions = ge211::Dims<int>;
+    using Position = ge211::Posn<int>;
 
-        Board get_board() const;
-        std::vector<Ship> get_ships() const;
+public:
+    Player(Position tl);
 
-        void shuffle();
+    Board get_board() const;
 
-        float get_score();
+    void shuffle();
 
-        Player other_player();
+    float get_score() const;
 
 
 
-    private:
-        // Model model_;
-        Board board;
-        Game_config config;
-        std::vector<Ship> ships;
-        std::vector<int> score_;
+private:
+    Board board;
+    Game_config config;
+    std::vector<Ship> ships;
+    std::vector<int> score_;
 };

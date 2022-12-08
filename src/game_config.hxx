@@ -7,7 +7,8 @@
 struct Game_config
 {
     public:
-        using Dimensions = ge211::geometry::Dims<int>;
+        using Dimensions = ge211::Dims<int>;
+        using Position = ge211::Posn<int>;
 
         Game_config();
 
@@ -16,8 +17,10 @@ struct Game_config
 
         const Dimensions brick_dims ;
         const Dimensions grid_spacing;
-        const Dimensions margins;
         const Dimensions button_dims;
+
+        const Position P1_board_pos;
+        const Position P2_board_pos;
 
         std::vector<Dimensions> ship_types;
 };

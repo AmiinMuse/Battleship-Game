@@ -1,11 +1,9 @@
-
 #include "player.hxx"
 
-Player::Player()
-    :
-    board(),
-    ships(),
-    score_()
+Player::Player(Position tl)
+        : board(tl),
+          ships(),
+          score_(0)
 {
     for (Dimensions dim : config.ship_types){
         ships.push_back(Ship(dim));
@@ -19,16 +17,9 @@ Player::get_board() const
 }
 
 float
-Player::get_score()
+Player::get_score() const
 {
-
-    return 0;
-}
-
-std::vector<Ship>
-Player::get_ships() const
-{
-    return ships;
+    return board.get_clicks();
 }
 
 void
@@ -36,13 +27,3 @@ Player::shuffle()
 {
     board.shuffle(ships);
 }
-
-// Player other_player()
-// {
-//     // changes player turn
-//     // if (model_.get_turn() == Model::Players::P1){
-//     //     return Model::Players::P2;
-//     // }
-//     return 0;
-// }
-

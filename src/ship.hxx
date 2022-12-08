@@ -14,13 +14,7 @@ public:
     Dimensions get_dims();
 
 
-    std::vector<std::vector<int>> get_locations();
-
-    void set_locations(std::vector<std::vector<int>> new_locations);
-
 private:
     const ge211::geometry::Dims<int> dims;
-    std::vector<std::vector<int>> locations;
 
-    //bool sunk = false;
 };
